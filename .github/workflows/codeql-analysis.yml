@@ -22,7 +22,7 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
-          languages: java # Adjust this to your project's language(s), e.g., javascript, python, java, csharp, go, etc.
+          languages: javascript # Adjust this to your project's language(s), e.g., javascript, python, java, csharp, go, etc.
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
